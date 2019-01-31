@@ -1,0 +1,30 @@
+body {
+   font-family: 'Crimson Text', serif;
+}
+
+p {
+   margin-top: 12px;
+}
+
+span {
+   border-left: 1px solid #ccc;
+   border-right: 1px solid #ccc;
+   display: inline-block;
+   white-space: pre;
+}
+
+h1 {
+   letter-spacing: 2px;
+   margin: 16px 0 0;
+   text-align: center;
+   text-transform: uppercase;
+}
+
+section {
+   padding: 12px 0;
+   text-align: center;
+}
+
+section:nth-child(odd) {
+   background-color: rgb(240, 240, 240);
+}
