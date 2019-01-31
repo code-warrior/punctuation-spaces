@@ -2,8 +2,6 @@ window.onload = () => {
     let headings = document.getElementsByTagName(`h2`),
         paragraphs = document.getElementsByTagName(`span`),
         getContentWidth = element => {
-            let styles = getComputedStyle(element);
-
             return element.clientWidth;
         };
 
