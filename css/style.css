@@ -7,8 +7,7 @@ p {
 }
 
 span {
-   border-left: 1px solid #ccc;
-   border-right: 1px solid #ccc;
+   background-color: #fe7f9c;
    display: inline-block;
    white-space: pre;
 }
